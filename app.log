@@ -1,0 +1,17 @@
+[INFO ] 2024-12-19 08:51:15.604 [restartedMain] Log4j2FilterApplication - Starting Log4j2FilterApplication using Java 21.0.5 with PID 97083 (/home/viper/Code/log4j2-filter/target/classes started by viper in /home/viper/Code/log4j2-filter)
+[INFO ] 2024-12-19 08:51:15.608 [restartedMain] Log4j2FilterApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-12-19 08:51:15.637 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2024-12-19 08:51:15.638 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2024-12-19 08:51:16.159 [restartedMain] TomcatWebServer - Tomcat initialized with port 9091 (http)
+[INFO ] 2024-12-19 08:51:16.168 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+[INFO ] 2024-12-19 08:51:16.169 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-12-19 08:51:16.170 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[INFO ] 2024-12-19 08:51:16.189 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-12-19 08:51:16.190 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+[INFO ] 2024-12-19 08:51:16.359 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2024-12-19 08:51:16.366 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+[INFO ] 2024-12-19 08:51:16.374 [restartedMain] TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+[INFO ] 2024-12-19 08:51:16.380 [restartedMain] Log4j2FilterApplication - Started Log4j2FilterApplication in 0.957 seconds (process running for 1.52)
+[INFO ] 2024-12-19 08:51:17.818 [http-nio-9091-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-12-19 08:51:17.819 [http-nio-9091-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2024-12-19 08:51:17.819 [http-nio-9091-exec-1] DispatcherServlet - Completed initialization in 0 ms

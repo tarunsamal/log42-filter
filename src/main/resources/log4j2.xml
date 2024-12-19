@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Appenders>
+        <RollingFile name="fileLogger" fileName="app.log" filePattern="app-%d{yyyy-MM-dd}.log">
+            <!-- Filtering out the "Connection reset by peer" message -->
+            <Filters>
+                <RegexFilter regex=".*Connection reset by peer.*" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+        </RollingFile>
+        <Console name="console" target="SYSTEM_OUT">
+            <!-- Filtering out the "Connection reset by peer" message -->
+            <Filters>
+                <RegexFilter regex=".*Connection reset by peer.*" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info" additivity="false">
+            <appender-ref ref="fileLogger" />
+            <appender-ref ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>

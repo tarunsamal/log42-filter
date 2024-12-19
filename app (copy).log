@@ -1,0 +1,23 @@
+[INFO ] 2024-12-19 08:48:07.590 [restartedMain] Log4j2FilterApplication - Starting Log4j2FilterApplication using Java 21.0.5 with PID 92948 (/home/viper/Code/log4j2-filter/target/classes started by viper in /home/viper/Code/log4j2-filter)
+[INFO ] 2024-12-19 08:48:07.595 [restartedMain] Log4j2FilterApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-12-19 08:48:07.624 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2024-12-19 08:48:07.624 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2024-12-19 08:48:08.134 [restartedMain] TomcatWebServer - Tomcat initialized with port 9091 (http)
+[INFO ] 2024-12-19 08:48:08.142 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+[INFO ] 2024-12-19 08:48:08.143 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-12-19 08:48:08.143 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[INFO ] 2024-12-19 08:48:08.162 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-12-19 08:48:08.163 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+[INFO ] 2024-12-19 08:48:08.334 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2024-12-19 08:48:08.343 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+[INFO ] 2024-12-19 08:48:08.350 [restartedMain] TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+[INFO ] 2024-12-19 08:48:08.356 [restartedMain] Log4j2FilterApplication - Started Log4j2FilterApplication in 0.961 seconds (process running for 1.517)
+[INFO ] 2024-12-19 08:48:24.094 [http-nio-9091-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-12-19 08:48:24.094 [http-nio-9091-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2024-12-19 08:48:24.095 [http-nio-9091-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[ERROR] 2024-12-19 08:48:24.111 [http-nio-9091-exec-1] logToFile - java.io.IOException: Connection reset by peer
+[ERROR] 2024-12-19 08:48:24.350 [http-nio-9091-exec-2] logToFile - java.io.IOException: Connection reset by peer
+[ERROR] 2024-12-19 08:48:24.526 [http-nio-9091-exec-3] logToFile - java.io.IOException: Connection reset by peer
+[ERROR] 2024-12-19 08:48:24.701 [http-nio-9091-exec-4] logToFile - java.io.IOException: Connection reset by peer
+[ERROR] 2024-12-19 08:48:24.869 [http-nio-9091-exec-5] logToFile - java.io.IOException: Connection reset by peer
+[ERROR] 2024-12-19 08:48:25.021 [http-nio-9091-exec-6] logToFile - java.io.IOException: Connection reset by peer
